@@ -1,13 +1,22 @@
-h1{
-    color:red;
-    text-align:center;
-}
-.hello{
+.choix{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-style:double;
+    width: 500px;
+    height: 600px;
+    color :black;
+    background-color: rgb(227, 223, 223);
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    margin-left: 350px;
 }
-video{
-    margin-left: 500px;
+img{
+    width: 450px;
+    height: 450px;
+}
+p{
+    font-style: bold;
+    font-weight:bold;
 }
